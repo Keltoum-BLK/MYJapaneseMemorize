@@ -44,13 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B90939702976E9E600EDD294 /* JapaneseMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JapaneseMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90939702976E9E600EDD294 /* MonCarnetDeJaponais.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonCarnetDeJaponais.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90939732976E9E600EDD294 /* JapaneseMemoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapaneseMemoryApp.swift; sourceTree = "<group>"; };
 		B90939752976E9E600EDD294 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B90939772976E9E700EDD294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B909397A2976E9E700EDD294 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B90939802976E9E700EDD294 /* JapaneseMemoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JapaneseMemoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B909398A2976E9E700EDD294 /* JapaneseMemoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JapaneseMemoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90939802976E9E700EDD294 /* MonCarnetDeJaponaisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonCarnetDeJaponaisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B909398A2976E9E700EDD294 /* MonCarnetDeJaponaisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonCarnetDeJaponaisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90939A62976ED6D00EDD294 /* uchiwa_loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = uchiwa_loader.json; sourceTree = "<group>"; };
 		B90939AA29770A6400EDD294 /* Word.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Word.xcdatamodel; sourceTree = "<group>"; };
 		B90939AC29770DB500EDD294 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
@@ -103,9 +103,9 @@
 		B90939712976E9E600EDD294 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B90939702976E9E600EDD294 /* JapaneseMemory.app */,
-				B90939802976E9E700EDD294 /* JapaneseMemoryTests.xctest */,
-				B909398A2976E9E700EDD294 /* JapaneseMemoryUITests.xctest */,
+				B90939702976E9E600EDD294 /* MonCarnetDeJaponais.app */,
+				B90939802976E9E700EDD294 /* MonCarnetDeJaponaisTests.xctest */,
+				B909398A2976E9E700EDD294 /* MonCarnetDeJaponaisUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B909396F2976E9E600EDD294 /* JapaneseMemory */ = {
+		B909396F2976E9E600EDD294 /* MonCarnetDeJaponais */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B90939942976E9E700EDD294 /* Build configuration list for PBXNativeTarget "JapaneseMemory" */;
+			buildConfigurationList = B90939942976E9E700EDD294 /* Build configuration list for PBXNativeTarget "MonCarnetDeJaponais" */;
 			buildPhases = (
 				B909396C2976E9E600EDD294 /* Sources */,
 				B909396D2976E9E600EDD294 /* Frameworks */,
@@ -213,17 +213,17 @@
 			);
 			dependencies = (
 			);
-			name = JapaneseMemory;
+			name = MonCarnetDeJaponais;
 			packageProductDependencies = (
 				B909399E2976EB1700EDD294 /* Lottie */,
 			);
 			productName = JapaneseMemory;
-			productReference = B90939702976E9E600EDD294 /* JapaneseMemory.app */;
+			productReference = B90939702976E9E600EDD294 /* MonCarnetDeJaponais.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B909397F2976E9E700EDD294 /* JapaneseMemoryTests */ = {
+		B909397F2976E9E700EDD294 /* MonCarnetDeJaponaisTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B90939972976E9E700EDD294 /* Build configuration list for PBXNativeTarget "JapaneseMemoryTests" */;
+			buildConfigurationList = B90939972976E9E700EDD294 /* Build configuration list for PBXNativeTarget "MonCarnetDeJaponaisTests" */;
 			buildPhases = (
 				B909397C2976E9E700EDD294 /* Sources */,
 				B909397D2976E9E700EDD294 /* Frameworks */,
@@ -234,14 +234,14 @@
 			dependencies = (
 				B90939822976E9E700EDD294 /* PBXTargetDependency */,
 			);
-			name = JapaneseMemoryTests;
+			name = MonCarnetDeJaponaisTests;
 			productName = JapaneseMemoryTests;
-			productReference = B90939802976E9E700EDD294 /* JapaneseMemoryTests.xctest */;
+			productReference = B90939802976E9E700EDD294 /* MonCarnetDeJaponaisTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B90939892976E9E700EDD294 /* JapaneseMemoryUITests */ = {
+		B90939892976E9E700EDD294 /* MonCarnetDeJaponaisUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B909399A2976E9E700EDD294 /* Build configuration list for PBXNativeTarget "JapaneseMemoryUITests" */;
+			buildConfigurationList = B909399A2976E9E700EDD294 /* Build configuration list for PBXNativeTarget "MonCarnetDeJaponaisUITests" */;
 			buildPhases = (
 				B90939862976E9E700EDD294 /* Sources */,
 				B90939872976E9E700EDD294 /* Frameworks */,
@@ -252,9 +252,9 @@
 			dependencies = (
 				B909398C2976E9E700EDD294 /* PBXTargetDependency */,
 			);
-			name = JapaneseMemoryUITests;
+			name = MonCarnetDeJaponaisUITests;
 			productName = JapaneseMemoryUITests;
-			productReference = B909398A2976E9E700EDD294 /* JapaneseMemoryUITests.xctest */;
+			productReference = B909398A2976E9E700EDD294 /* MonCarnetDeJaponaisUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -280,7 +280,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B909396B2976E9E600EDD294 /* Build configuration list for PBXProject "JapaneseMemory" */;
+			buildConfigurationList = B909396B2976E9E600EDD294 /* Build configuration list for PBXProject "MonCarnetDeJaponais" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -296,9 +296,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B909396F2976E9E600EDD294 /* JapaneseMemory */,
-				B909397F2976E9E700EDD294 /* JapaneseMemoryTests */,
-				B90939892976E9E700EDD294 /* JapaneseMemoryUITests */,
+				B909396F2976E9E600EDD294 /* MonCarnetDeJaponais */,
+				B909397F2976E9E700EDD294 /* MonCarnetDeJaponaisTests */,
+				B90939892976E9E700EDD294 /* MonCarnetDeJaponaisUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -370,12 +370,12 @@
 /* Begin PBXTargetDependency section */
 		B90939822976E9E700EDD294 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B909396F2976E9E600EDD294 /* JapaneseMemory */;
+			target = B909396F2976E9E600EDD294 /* MonCarnetDeJaponais */;
 			targetProxy = B90939812976E9E700EDD294 /* PBXContainerItemProxy */;
 		};
 		B909398C2976E9E700EDD294 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B909396F2976E9E600EDD294 /* JapaneseMemory */;
+			target = B909396F2976E9E600EDD294 /* MonCarnetDeJaponais */;
 			targetProxy = B909398B2976E9E700EDD294 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -571,7 +571,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JapaneseMemory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JapaneseMemory";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonCarnetDeJaponais.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MonCarnetDeJaponais";
 			};
 			name = Debug;
 		};
@@ -591,7 +591,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JapaneseMemory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JapaneseMemory";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonCarnetDeJaponais.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MonCarnetDeJaponais";
 			};
 			name = Release;
 		};
@@ -634,7 +634,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B909396B2976E9E600EDD294 /* Build configuration list for PBXProject "JapaneseMemory" */ = {
+		B909396B2976E9E600EDD294 /* Build configuration list for PBXProject "MonCarnetDeJaponais" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B90939922976E9E700EDD294 /* Debug */,
@@ -643,7 +643,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B90939942976E9E700EDD294 /* Build configuration list for PBXNativeTarget "JapaneseMemory" */ = {
+		B90939942976E9E700EDD294 /* Build configuration list for PBXNativeTarget "MonCarnetDeJaponais" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B90939952976E9E700EDD294 /* Debug */,
@@ -652,7 +652,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B90939972976E9E700EDD294 /* Build configuration list for PBXNativeTarget "JapaneseMemoryTests" */ = {
+		B90939972976E9E700EDD294 /* Build configuration list for PBXNativeTarget "MonCarnetDeJaponaisTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B90939982976E9E700EDD294 /* Debug */,
@@ -661,7 +661,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B909399A2976E9E700EDD294 /* Build configuration list for PBXNativeTarget "JapaneseMemoryUITests" */ = {
+		B909399A2976E9E700EDD294 /* Build configuration list for PBXNativeTarget "MonCarnetDeJaponaisUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B909399B2976E9E700EDD294 /* Debug */,
