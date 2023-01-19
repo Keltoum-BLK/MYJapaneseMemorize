@@ -20,7 +20,7 @@ struct MainScreenView: View {
             Image("neko")
                 .resizable()
             VStack{
-                Text("Mon Carnet Japonais")
+                Text("Mon Carnet de Japonais")
                     .bold()
                     .font(.custom("Hashiba", size: 30))
                     .foregroundColor(.black)

@@ -12,7 +12,7 @@ struct SplashAnimation: View {
     var body: some View {
         VStack {
             VStack {
-                Text("Mon Carnet Japonais")
+                Text("Mon Carnet de Japonais")
                     .font(.custom("Hashiba", size: 40))
                     .foregroundColor(.black)
                 Text("mon lexique de poche")
