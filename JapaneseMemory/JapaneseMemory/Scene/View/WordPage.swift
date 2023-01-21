@@ -57,12 +57,12 @@ struct WordPage: View {
                 Button {
                     let utterance = AVSpeechUtterance(string: "\(word.japanese ?? "")")
                     utterance.voice = AVSpeechSynthesisVoice(language: "ja-JP")
-                    utterance.rate = 0.52
+                    utterance.rate = 0.4
                     
                     self.synthesizer.speak(utterance)
                 } label: {
                     Label("Add word", systemImage: "speaker.wave.2.fill")
-                        .foregroundColor(.white)
+                        .foregroundColor(.black)
                 }
             }
         }

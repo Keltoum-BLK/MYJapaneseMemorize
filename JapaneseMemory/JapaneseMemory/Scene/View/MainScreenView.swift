@@ -17,13 +17,20 @@ struct MainScreenView: View {
     var body: some View {
         ZStack{
 
-            Image("neko")
+            Image("geisha")
                 .resizable()
             VStack{
-                Text("Mon Carnet de Japonais")
-                    .bold()
-                    .font(.custom("Hashiba", size: 30))
-                    .foregroundColor(.black)
+                    ZStack {
+                        Color.red
+                            .cornerRadius(40)
+                            .opacity(0.8)
+                        Text("Mon Carnet de Japonais")
+                            .bold()
+                            .font(.custom("Hashiba", size: 30))
+                            .foregroundColor(.white)
+                    }
+                    .frame(width: 250, height: 50)
+                    .shadow(radius: 10)
                 Spacer()
             }
             
@@ -49,7 +56,7 @@ struct MainScreenView: View {
                         }
                     }
                 }
-                .padding(.top, 50)
+                .padding(.top, 80)
             }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {

@@ -19,10 +19,10 @@
 		B94843AE29784C84001477D4 /* WordPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94843AD29784C84001477D4 /* WordPage.swift */; };
 		B94843B7297858F5001477D4 /* Hashiba.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B94843B6297858F5001477D4 /* Hashiba.ttf */; };
 		B94843BB29786F79001477D4 /* AddNewWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94843BA29786F79001477D4 /* AddNewWordView.swift */; };
+		B95027EA297B456E0091DCC1 /* Rounded.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B95027E9297B456E0091DCC1 /* Rounded.ttf */; };
 		B9955FBA29794DD50034DCC9 /* japan.json in Resources */ = {isa = PBXBuildFile; fileRef = B9955FB929794DD50034DCC9 /* japan.json */; };
 		B9955FBC29794E450034DCC9 /* SplashAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9955FBB29794E450034DCC9 /* SplashAnimationView.swift */; };
 		B9955FBE297950C50034DCC9 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9955FBD297950C50034DCC9 /* MainScreenView.swift */; };
-		B9955FC0297999950034DCC9 /* Odin.otf in Resources */ = {isa = PBXBuildFile; fileRef = B9955FBF297999940034DCC9 /* Odin.otf */; };
 		B9955FC22979A19C0034DCC9 /* DeleteWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9955FC12979A19C0034DCC9 /* DeleteWordView.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,10 +59,10 @@
 		B94843B129785620001477D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B94843B6297858F5001477D4 /* Hashiba.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hashiba.ttf; sourceTree = "<group>"; };
 		B94843BA29786F79001477D4 /* AddNewWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewWordView.swift; sourceTree = "<group>"; };
+		B95027E9297B456E0091DCC1 /* Rounded.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rounded.ttf; sourceTree = "<group>"; };
 		B9955FB929794DD50034DCC9 /* japan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = japan.json; sourceTree = "<group>"; };
 		B9955FBB29794E450034DCC9 /* SplashAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashAnimationView.swift; sourceTree = "<group>"; };
 		B9955FBD297950C50034DCC9 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
-		B9955FBF297999940034DCC9 /* Odin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Odin.otf; sourceTree = "<group>"; };
 		B9955FC12979A19C0034DCC9 /* DeleteWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteWordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -183,7 +183,7 @@
 			children = (
 				B90939772976E9E700EDD294 /* Assets.xcassets */,
 				B94843B6297858F5001477D4 /* Hashiba.ttf */,
-				B9955FBF297999940034DCC9 /* Odin.otf */,
+				B95027E9297B456E0091DCC1 /* Rounded.ttf */,
 				B90939A829770A2B00EDD294 /* Animations */,
 			);
 			path = Ressources;
@@ -311,9 +311,9 @@
 				B9955FBA29794DD50034DCC9 /* japan.json in Resources */,
 				B90939A72976ED6D00EDD294 /* uchiwa_loader.json in Resources */,
 				B909397B2976E9E700EDD294 /* Preview Assets.xcassets in Resources */,
+				B95027EA297B456E0091DCC1 /* Rounded.ttf in Resources */,
 				B90939782976E9E700EDD294 /* Assets.xcassets in Resources */,
 				B94843B7297858F5001477D4 /* Hashiba.ttf in Resources */,
-				B9955FC0297999950034DCC9 /* Odin.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,8 +510,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -540,8 +541,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

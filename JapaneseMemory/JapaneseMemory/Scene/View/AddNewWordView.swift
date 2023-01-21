@@ -22,11 +22,12 @@ struct AddNewWordView: View {
             Form {
                 Section() {
                     TextField("Entrez le mot en français", text: $french)
-                        .font(.custom("Odin", size: 20))
+                        .font(.custom("American Typewriter", size: 18))
                     TextField("Entrez le mot en japonais", text: $japanese)
-                        .font(.custom("Odin", size: 20))
+                        .font(.custom("American Typewriter", size: 18))
                     TextField("Entrez le mot en romaji", text: $romaji)
-                        .font(.custom("Odin", size: 20))
+                        .font(.custom("American Typewriter", size: 18))
+                        .italic()
                     
                     HStack {
                         Spacer()
@@ -34,6 +35,8 @@ struct AddNewWordView: View {
                             DataController().addWord(japanese: japanese, romaji: romaji, french: french, context: managedObjContext)
                             dismiss()
                         }
+                        .font(.custom("American Typewriter", size: 18))
+                        .bold()
                         Spacer()
                     }
                 }
